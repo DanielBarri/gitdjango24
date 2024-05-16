@@ -1,0 +1,60 @@
+/* barra de navegacion */
+
+
+.navbar {
+    padding: 1rem;
+    background-color: #f5f6f7;
+    font-size: 1.5rem;
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row {
+    margin-top: 4rem;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+    background-image: url(../imagenes/fondo.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.btn-group {
+    margin-bottom: 1rem;
+}   
+
+.card {
+    margin-left: 10rem;
+}
+
+.michroma-regular {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.col-sm-5{
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form{
+    margin: 2rem;
+}
+
+body.cuerpo {
+    background-color: aqua !important;
+}
+
+

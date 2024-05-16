@@ -1,0 +1,33 @@
+{% extends 'todo/layouts.html'  %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h1>Agregar</h1>
+                <form method='post'>
+
+                    {% csrf_token %}
+                    {{ form }}
+                    <button class="btn btn-outline-primary">Agregar tarea</button>
+
+                </form>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 30rem;">
+                    <img src="{% static 'imagenes/Promo1.png' %}" class="card-img-top" alt="promo">
+                    <div class="card-body">
+                    <p class="card-text">No sufras por el calor!!!, prende tu aire acondicionado sin miedo del recibo de luz.</p>
+                    <a href="#" class="btn btn-primary">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+{% endblock %}
+    
